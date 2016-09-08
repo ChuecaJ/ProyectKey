@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>positionx = y;
+            <string>startx = x;
+starty = y;
+
+positionx = y;
 positiony = x;
 
 move = false;
@@ -53,9 +56,14 @@ move = false;
           <argument>
             <kind>1</kind>
             <string>if (move = true){
-    x = mouse_x;
-    y = mouse_y;
+    if (direction = 90){
+        x = startx;
+        y = mouse_y;
+    } else {
+        x = mouse_x;
+        y = starty;
     }
+}
 </string>
           </argument>
         </arguments>
