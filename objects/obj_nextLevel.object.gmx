@@ -78,7 +78,7 @@ key = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text (40, 10, key)
+            <string>//draw_text (40, 10, key)
 </string>
           </argument>
         </arguments>
